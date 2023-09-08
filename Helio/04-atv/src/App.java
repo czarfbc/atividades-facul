@@ -25,28 +25,30 @@ public class App {
         String sx, sa, sb, sc;
 
         sx = JOptionPane.showInputDialog(null, "valor x");
-
         x = Integer.parseInt(sx);
-
         par = x % 2;
 
-        if (par == 0) {
-            sa = JOptionPane.showInputDialog(null, "valor a");
-            sb = JOptionPane.showInputDialog(null, "valor b");
-            sc = JOptionPane.showInputDialog(null, "valor c");
-
-            a = Integer.parseInt(sa);
-            b = Integer.parseInt(sb);
-            c = Integer.parseInt(sc);
-            if (x > 0 && x <= 10) {
-                mediaA = (a + b + c) / 3;
-                JOptionPane.showMessageDialog(null, "MediaA: " + mediaA);
-            } else if (x > 10) {
-                mediaP = ((a * 2) + (b * 3) + (c * 4)) / 9;
-                JOptionPane.showMessageDialog(null, "MediaP: " + mediaP);
-            }
-        } else {
-            JOptionPane.showMessageDialog(null, "Impar");
+        while (par != 0) {
+            sx = JOptionPane.showInputDialog(null, "Insira um valor par:");
+            x = Integer.parseInt(sx);
+            par = x % 2;
         }
+
+        sa = JOptionPane.showInputDialog(null, "valor a");
+        sb = JOptionPane.showInputDialog(null, "valor b");
+        sc = JOptionPane.showInputDialog(null, "valor c");
+
+        a = Integer.parseInt(sa);
+        b = Integer.parseInt(sb);
+        c = Integer.parseInt(sc);
+
+        if (x > 0 && x <= 10) {
+            mediaA = (a + b + c) / 3;
+            JOptionPane.showMessageDialog(null, "MediaA: " + mediaA);
+        } else if (x > 10) {
+            mediaP = ((a * 2) + (b * 3) + (c * 4)) / 9;
+            JOptionPane.showMessageDialog(null, "MediaP: " + mediaP);
+        }
+
     }
 }
