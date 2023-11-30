@@ -85,25 +85,25 @@ public class App {
         // }
 
         // DECLARÇÃO DE VARIÁVEIS
-        int p1, p2;
-        float valor, p3;
-        String s_valor;
+        // int p1, p2;
+        // float valor, p3;
+        // String s_valor;
 
-        // PEGAR VALOR INFORMADO PELO USUÁRIO
-        s_valor = JOptionPane.showInputDialog(null, "Informe um número:");
+        // // PEGAR VALOR INFORMADO PELO USUÁRIO
+        // s_valor = JOptionPane.showInputDialog(null, "Informe um número:");
 
-        // TRANSFORMAR TEXTO EM UM Nº
-        valor = Float.parseFloat(s_valor);
+        // // TRANSFORMAR TEXTO EM UM Nº
+        // valor = Float.parseFloat(s_valor);
 
-        // PEGAR A PARTE INTEIRA DA DIVISÃO
-        p1 = (int) (valor / 3);
-        p2 = (int) (valor / 3);
+        // // PEGAR A PARTE INTEIRA DA DIVISÃO
+        // p1 = (int) (valor / 3);
+        // p2 = (int) (valor / 3);
 
-        // O RESTANTE DO VALOR
-        p3 = valor - p1 * 2;
+        // // O RESTANTE DO VALOR
+        // p3 = valor - p1 * 2;
 
-        // MOSTRAR NA TELA DE MANEIRA FORMATADA
-        JOptionPane.showMessageDialog(null, String.format("p1 = %d, p2 = %d, p3 = %.2f", p1, p2, p3));
-
+        // // MOSTRAR NA TELA DE MANEIRA FORMATADA
+        // JOptionPane.showMessageDialog(null, String.format("p1 = %d, p2 = %d, p3 =
+        // %.2f", p1, p2, p3));
     }
 }
