@@ -129,9 +129,6 @@ public class App {
         // calculo = (matriz1[0][0] + matriz1[1][0] + matriz1[2][0]);
         // calculo = (matriz1[0][1] + matriz1[1][1] + matriz1[2][1]);
         // calculo = (matriz1[0][2] + matriz1[1][2] + matriz1[2][2]);
-
-        // calculo = (matriz1[0][2] + matriz1[1][2] + matriz1[2][2]);
-
         // ==========================6==============================//
     }
 }
